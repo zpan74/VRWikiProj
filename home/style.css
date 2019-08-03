@@ -11,6 +11,7 @@ body{
 }
 .navbardiv {
     background: linear-gradient(0deg, #fff 85%, #a0a0a0 100%);
+    overflow: hidden;
 }
 .navbarlist {
     list-style: none;
@@ -102,7 +103,7 @@ body{
 }
 #pcheadset {
     text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/geforce-rtx-2080-ti-gallery-a.jpg);
+    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/pro_eye_banner_desktop-min.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +112,7 @@ body{
 }
 #mobileheadset {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/View-Master_Model_G.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/Oculus_Go_VR.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +121,7 @@ body{
 }
 #businessvr {
     text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/geforce-rtx-2080-ti-gallery-a.jpg);
+    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/Virtual_reality_training_130416-A-BZ540-008.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +130,7 @@ body{
 }
 #vrmedia {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/View-Master_Model_G.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/jobsim_office2.png);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +139,7 @@ body{
 }
 #future {
     text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/geforce-rtx-2080-ti-gallery-a.jpg);
+    background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/screen-shot-2019-04-30-at-12348-pmpng.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,6 +147,6 @@ body{
     background-size: cover;
 }
 #bottom_banner {
-    background-color: #5c5c5c;
+    background-color: #313131;
 
 }
