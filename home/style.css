@@ -32,7 +32,7 @@ body{
 }
 .hero {
     background-image: url(imgs/31100256215_f779304791_o.jpg);
-    height: 1000px;
+    height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,12 +48,19 @@ body{
     font: 70px;
     border: 10px solid #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     padding: 20px;
 }
-.herosections {
+.herosection {
     position: relative;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    cursor: pointer;
 }
+.
