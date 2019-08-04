@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'unsafe-inline'">
     <title>VR Wiki</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
             <li class="menuitems"><a href="../Console-mobile/Console-mobile.html">Console & Mobile VR Support Guide</a></li>
             <li class="menuitems"><a href="../PCHeadsets/PCHeadsets.html">PC VR Headset Roundup</a></li>
             <li class="menuitems"><a href="../MoblieHeadsets/Mobileheadsets.html">Mobile & Standalone Headset Roundup</a></li>
-            <li class="menuitems"><a href="../BusinessVR/BusinessVR.html">VR for Business Showcase</a></li>
+            <li class="menuitems"><a href="BusinessVR.html#home">VR for Business Showcase</a></li>
             <li class="menuitems"><a href="../VRMedia/VRMedia.html">VR Media Showcase</a></li>
             <li class="menuitems"><a href="../Future/Future.html">Future of VR</a></li>
         </ul>
@@ -30,8 +31,22 @@
     <button onclick="backtotopfunc()" id="logoBtn" title="Back to top">
         <span class="icon"></span>
     </button>
-    <div class="bottom banner">
-        <p class="content">Sources</p>
+    <div class="heros">
+        <div class="herosection" id="intro">
+            <h1 class="heroheader">The History of VR</h1>
+            <p class="content">Learn about how we got here, from the 3D Viewmaster to the Nintendo VirtualBoy<br><br>
+            <button onclick="window.location.href='../History/History.html';">Read more ></button>
+            </p>
+        </div>
+        <div class="herosection" id="pchardware">
+            <h1 class="heroheader">PC Hardware & Support Guide</h1>
+            <p class="content">Which components to buy? What software is compatible? From GPUs to Steam, here's our guide to a good VR experience.<br><br>
+            <button onclick="window.location.href='../PCHardware/PCHardware.html';">Read more ></button>
+            </p>
+        </div>
+        <div class="bottom banner">
+            <p class="content">Sources</p>
+        </div>
     </div>
 </body>
 <script>
