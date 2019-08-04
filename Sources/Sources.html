@@ -12,8 +12,7 @@
 <body>
     <div class="introbanner" id="home">
         <div class="bannertext">
-            <h1>VR Wiki</h1>
-            <p>A HACC CIS Project.</p>
+            <h1>Sources</h1>
         </div>
     </div>
     <div id="navbardiv">
@@ -91,33 +90,33 @@
     </div>
 </body>
 <script>
-    window.onscroll = function() {
-        navbarstick();
-        scrollbtnFunction();
-    };
+window.onscroll = function() {
+navbarstick();
+scrollbtnFunction();
+};
 
-    var navbar = document.getElementById("navbardiv");
+var navbar = document.getElementById("navbardiv");
 
-    var stickingdistance = navbar.offsetTop;
+var stickingdistance = navbar.offsetTop;
 
-    function navbarstick() {
-        if (window.pageYOffset > stickingdistance) {
-            navbar.classList.add("sticknavbar");
-        } else {
-            navbar.classList.remove ("sticknavbar");
-        }
-    }
-    function scrollbtnFunction() {
-        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    document.getElementById("logoBtn").style.display = "block";
-    } else {
-    document.getElementById("logoBtn").style.display = "none";
-  }
-    }
-    function backtotopfunc() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-    
+function navbarstick() {
+if (window.pageYOffset > stickingdistance) {
+    navbar.classList.add("sticknavbar");
+} else {
+    navbar.classList.remove ("sticknavbar");
+}
+}
+function scrollbtnFunction() {
+if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+document.getElementById("logoBtn").style.display = "block";
+} else {
+document.getElementById("logoBtn").style.display = "none";
+}
+}
+function backtotopfunc() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
 </script>
 </html>

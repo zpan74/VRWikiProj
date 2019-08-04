@@ -109,67 +109,35 @@ p {
 }
 #history {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/View-Master_Model_G.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #525252;
 }
 #pchardware {
-    text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/geforce-rtx-2080-ti-gallery-a.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    text-align: right;
+    background-color: #525252;
 }
 #consolemobile {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/31100256215_f779304791_o.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #525252;
 }
 #pcheadset {
-    text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/pro_eye_banner_desktop-min.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    text-align: right;
+    background-color: #525252;
 }
 #mobileheadset {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/Oculus_Go_VR.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #525252;
 }
 #businessvr {
-    text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/Virtual_reality_training_130416-A-BZ540-008.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    text-align: right;
+    background-color: #525252;
 }
 #vrmedia {
     text-align: right;
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/jobsim_office2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #525252;
 }
 #future {
-    text-align: left;
-    background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/screen-shot-2019-04-30-at-12348-pmpng.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    text-align: right;
+    background-color: #525252;
 }
 .footer {
     background-color: #525252;
