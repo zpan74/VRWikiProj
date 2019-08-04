@@ -78,7 +78,7 @@ p {
 }
 .herosection {
     position: relative;
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -110,7 +110,6 @@ p {
 #history {
     text-align: right;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/View-Master_Model_G.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -119,7 +118,6 @@ p {
 #pchardware {
     text-align: left;
     background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/geforce-rtx-2080-ti-gallery-a.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +126,6 @@ p {
 #consolemobile {
     text-align: right;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/31100256215_f779304791_o.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -137,7 +134,6 @@ p {
 #pcheadset {
     text-align: left;
     background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/pro_eye_banner_desktop-min.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -146,7 +142,6 @@ p {
 #mobileheadset {
     text-align: right;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/Oculus_Go_VR.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -155,7 +150,6 @@ p {
 #businessvr {
     text-align: left;
     background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/Virtual_reality_training_130416-A-BZ540-008.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -164,7 +158,6 @@ p {
 #vrmedia {
     text-align: right;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/jobsim_office2.png);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -173,7 +166,6 @@ p {
 #future {
     text-align: left;
     background-image: linear-gradient(-90deg, rgba(0,0,0,0.3), rgba(0,0,0,1)), url(imgs/screen-shot-2019-04-30-at-12348-pmpng.jpg);
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
