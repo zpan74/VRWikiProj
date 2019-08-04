@@ -9,19 +9,58 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbardiv">
-            <ul class="navbarlist">
-                <li class="menuitems"><a href="../home/index.html">Home</a></li>
-                <li class="menuitems"><a href="../History/History.html">History of VR</a></li>
-                <li class="menuitems"><a href="../PCHardware/PCHardware.html">PC Hardware & Support Guide</a></li>
-                <li class="menuitems"><a href="../Console-mobile/Console-mobile.html">Console & Mobile VR Support Guide</a></li>
-                <li class="menuitems"><a href="../PCHeadsets/PCHeadsets.html">PC VR Headset Roundup</a></li>
-                <li class="menuitems"><a href="../MoblieHeadsets/Mobileheadsets.html">Mobile & Standalone Headset Roundup</a></li>
-                <li class="menuitems"><a href="../BusinessVR/BusinessVR.html">VR for Business Showcase</a></li>
-                <li class="menuitems"><a href="../VRMedia/VRMedia.html">VR Media Showcase</a></li>
-                <li class="menuitems"><a href="../Future/Future.html">Future of VR</a></li>
-            </ul>
+    <div class="introbanner" id="home">
+        <div class="bannertext">
+            <h1>VR for Business Showcase</h1>
         </div>
-    
+    </div>
+    <div id="navbardiv">
+        <ul class="navbarlist">
+            <li class="menuitems"><a href="../home/index.html">Home</a></li>
+            <li class="menuitems"><a href="../History/History.html">History of VR</a></li>
+            <li class="menuitems"><a href="../PCHardware/PCHardware.html">PC Hardware & Support Guide</a></li>
+            <li class="menuitems"><a href="../Console-mobile/Console-mobile.html">Console & Mobile VR Support Guide</a></li>
+            <li class="menuitems"><a href="../PCHeadsets/PCHeadsets.html">PC VR Headset Roundup</a></li>
+            <li class="menuitems"><a href="../MoblieHeadsets/Mobileheadsets.html">Mobile & Standalone Headset Roundup</a></li>
+            <li class="menuitems"><a href="../BusinessVR/BusinessVR.html">VR for Business Showcase</a></li>
+            <li class="menuitems"><a href="../VRMedia/VRMedia.html">VR Media Showcase</a></li>
+            <li class="menuitems"><a href="../Future/Future.html">Future of VR</a></li>
+        </ul>
+    </div>
+    <button onclick="backtotopfunc()" id="logoBtn" title="Back to top">
+        <span class="icon"></span>
+    </button>
+    <div class="bottom banner">
+        <p class="content">Sources</p>
+    </div>
 </body>
+<script>
+    window.onscroll = function() {
+        navbarstick();
+        scrollbtnFunction();
+    };
+
+    var navbar = document.getElementById("navbardiv");
+
+    var stickingdistance = navbar.offsetTop;
+
+    function navbarstick() {
+        if (window.pageYOffset > stickingdistance) {
+            navbar.classList.add("sticknavbar");
+        } else {
+            navbar.classList.remove ("sticknavbar");
+        }
+    }
+    function scrollbtnFunction() {
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("logoBtn").style.display = "block";
+    } else {
+    document.getElementById("logoBtn").style.display = "none";
+    }
+    }
+    function backtotopfunc() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </html>
