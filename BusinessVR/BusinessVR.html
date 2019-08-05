@@ -10,11 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--this is the intro banner for the page, if you want to change the background image, change the .introbanner css style-->
     <div class="introbanner" id="home">
         <div class="bannertext">
-            <h1>VR for Business Showcase</h1>
+            <h1>VR for Business Showcase</h1> <!--This is the 'title text', if you want to add a subtitle, add a paragraph tag-->
         </div>
     </div>
+<!-- This is the navigation bar that sticks to the top of the screen as you scroll, you shouldn't need to change anything here unless you want to change the title of the page.-->
     <div id="navbardiv">
         <ul class="navbarlist">
             <li class="menuitems"><a href="../home/index.html">Home</a></li>
@@ -28,25 +30,33 @@
             <li class="menuitems"><a href="../Future/Future.html">Future of VR</a></li>
         </ul>
     </div>
+<!-- This is the "Back to Top" button that shows when you start scrolling down.-->
     <button onclick="backtotopfunc()" id="logoBtn" title="Back to top">
         <span class="icon"></span>
     </button>
+<!-- This is the "content" portion of the webpage, this is where your article and other stuff goes.-->
     <div class="heros">
+<!-- You can add your content to the inside of a .herosection, and copy + paste herosections for different formating -->
         <div class="herosection" id="intro">
-            <h1 class="heroheader">Isn't VR for games?</h1>
+            <h1 class="heroheader">Isn't VR for games?</h1> <!-- Put heading here, delete if not needed. -->
             <p class="content">
+                <!-- This is where your text goes, !important!-->
+
                 Most people would assume that a technology meant for video games would stay in the entertainment realm, but many workplaces ranging from UPS and Walmart, all the way to the US military, are discovering the sheer amount of possiblities in adopting VR technology to help solve important problems.
             </p>
         </div>
-        <div class="herosection" id="video-container">
+        <div class="herosection" id="video-container"> 
+<!-- Use this section for your video, just replace the link after "src" -->
                 <iframe src="https://www.youtube.com/embed/fypGVcmWpnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="herosection">
+        <div class="herosection"> 
+<!-- This is another herosection without a heading-->
             <p class="content">
                 UPS is using VR to help drivers-in-training to identify road hazards
             </p>
         </div>
         <div class="footer">
+<!-- This is the website footer, ask to change if needed -->
             <ul class="footerlist">
                 <li><a href="../Sources/Sources.html" class="footerlinks">Sources</a></li>
                 <li><a href="https://www.logomakr.com" class="footerlinks">Logo created with Logomakr.com</a></li>
@@ -57,6 +67,7 @@
     </div>
 </body>
 <script>
+// This is all the scripts for the navigation bar and the "Back To Top" button
     window.onscroll = function() {
         navbarstick();
         scrollbtnFunction();

@@ -83,6 +83,8 @@ p {
     position: relative;
     max-width: 1100px;
     margin: 0 auto;
+    text-align: left;
+    background-color: #d8d8d8;
 }
 .heroheader {
     padding: 70px 15% 25px;
@@ -94,11 +96,6 @@ p {
     padding: 25px 15% 25px;
     max-width: 1100px;
     margin: 0 auto;
-}
-#intro {
-    text-align: left;
-    background-color: #d8d8d8;
-
 }
 #video-container{
     display: flex;

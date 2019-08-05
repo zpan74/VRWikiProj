@@ -10,11 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--this is the intro banner for the page, if you want to change the background image, change the .introbanner css style in style.css-->
     <div class="introbanner" id="home">
         <div class="bannertext">
-            <h1>VR Media Showcase</h1>
+            <h1>VR Media Showcase</h1> <!--This is the 'title text', if you want to add a subtitle, add a paragraph tag below this line-->
         </div>
     </div>
+<!-- This is the navigation bar that sticks to the top of the screen as you scroll, you shouldn't need to change anything here unless you want to change the title of the page.-->
     <div id="navbardiv">
         <ul class="navbarlist">
             <li class="menuitems"><a href="../home/index.html">Home</a></li>
@@ -23,24 +25,49 @@
             <li class="menuitems"><a href="../Console-mobile/Console-mobile.html">Console & Mobile VR Support Guide</a></li>
             <li class="menuitems"><a href="../PCHeadsets/PCHeadsets.html">PC VR Headset Roundup</a></li>
             <li class="menuitems"><a href="../MoblieHeadsets/Mobileheadsets.html">Mobile & Standalone Headset Roundup</a></li>
-            <li class="menuitems"><a href="../BusinessVR/BusinessVR.html">VR for Business Showcase</a></li>
+            <li class="menuitems"><a href="BusinessVR.html#home">VR for Business Showcase</a></li>
             <li class="menuitems"><a href="../VRMedia/VRMedia.html">VR Media Showcase</a></li>
             <li class="menuitems"><a href="../Future/Future.html">Future of VR</a></li>
         </ul>
     </div>
+<!-- This is the "Back to Top" button that shows when you start scrolling down.-->
     <button onclick="backtotopfunc()" id="logoBtn" title="Back to top">
         <span class="icon"></span>
     </button>
-    <div class="footer">
-        <ul class="footerlist">
-            <li><a href="../Sources/Sources.html" class="footerlinks">Sources</a></li>
-            <li><a href="https://www.logomakr.com" class="footerlinks">Logo created with Logomakr.com</a></li>
-            <li><a href="https://pages.github.com/" class="footerlinks">Hosted with Github Pages</a></li>
-        </ul>
-        <p class="disclaimer">The views expressed are solely of their respective authors and do not represent views of any featured entities, or any affilated entities in past, present, or future.</p>
+<!-- This is the "content" portion of the webpage, this is where your article and other stuff goes.-->
+    <div class="heros">
+<!-- You can add your content to the inside of a .herosection, and copy + paste herosections for different formating -->
+        <div class="herosection" id="intro">
+            <h1 class="heroheader">*Placeholder Heading*</h1> <!-- Put heading here, delete if not needed. -->
+            <p class="content">
+
+                <!-- This is where your text goes, !important!-->
+
+            </p>
+        </div>
+        <div class="herosection" id="video-container"> 
+<!-- Use this section for your video, just replace the link after "src" -->
+                <iframe src="https://www.youtube.com/embed/fypGVcmWpnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="herosection"> 
+<!-- This is another herosection without a heading-->
+            <p class="content">
+                Placeholder text pls replace.......
+            </p>
+        </div>
+        <div class="footer">
+<!-- This is the website footer, ask to change if needed -->
+            <ul class="footerlist">
+                <li><a href="../Sources/Sources.html" class="footerlinks">Sources</a></li>
+                <li><a href="https://www.logomakr.com" class="footerlinks">Logo created with Logomakr.com</a></li>
+                <li><a href="https://pages.github.com/" class="footerlinks">Hosted with Github Pages</a></li>
+            </ul>
+            <p class="disclaimer">The views expressed are solely of their respective authors and do not represent views of any featured entities, or any affilated entities in past, present, or future.</p>
+        </div>
     </div>
 </body>
 <script>
+    // This is all the scripts for the navigation bar and the "Back To Top" button
     window.onscroll = function() {
         navbarstick();
         scrollbtnFunction();
