@@ -75,14 +75,39 @@ p {
     background-color: #000;
     transition: 0.5s;
 }
-.bottombanner {
-    background-color: #353535;
+.footer {
+    background-color: #525252;
     position: relative;
     height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+}
+.footerlist {
+    text-align: center;
+    padding: 20px 50px 10px 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.footerlinks {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: 100;
+}
+.footerlinks:hover {
+    color: #dddddd;
+    font-weight: 400;
+    transition:all 0.5s ease;
+}
+.disclaimer {
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 20px 50px 10px 50px;
+    color: #adadad;
+    max-width: 1000px;
+    text-align: center;
+    
 }
 .icon {
     background: url(imgs/LogoMakr_7Hn5X8Top.png);
