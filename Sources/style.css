@@ -16,7 +16,7 @@ p {
     font-size: 20px;
 }
 .introbanner {
-    background-image: url(imgs/Sample_screen_capture_of_Oculus_rift_development_kit_2_screen_buffer.jpg);
+    background-color: #000000;
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,10 +79,9 @@ p {
 .herosection {
     position: relative;
     height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    text-align: right;
+    background-color: #525252;
+
 }
 .herosection >.content >button {
     background-color: rgba(0, 0, 0, 0);
@@ -106,38 +105,6 @@ p {
     color: #ffffff;
     padding: 25px 15% 25px;
 
-}
-#history {
-    text-align: right;
-    background-color: #525252;
-}
-#pchardware {
-    text-align: right;
-    background-color: #525252;
-}
-#consolemobile {
-    text-align: right;
-    background-color: #525252;
-}
-#pcheadset {
-    text-align: right;
-    background-color: #525252;
-}
-#mobileheadset {
-    text-align: right;
-    background-color: #525252;
-}
-#businessvr {
-    text-align: right;
-    background-color: #525252;
-}
-#vrmedia {
-    text-align: right;
-    background-color: #525252;
-}
-#future {
-    text-align: right;
-    background-color: #525252;
 }
 .footer {
     background-color: #525252;
