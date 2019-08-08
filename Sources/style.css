@@ -78,8 +78,7 @@ p {
 }
 .herosection {
     position: relative;
-    height: 600px;
-    text-align: right;
+    text-align: left;
     background-color: #525252;
 
 }
@@ -104,6 +103,7 @@ p {
 .content {
     color: #ffffff;
     padding: 25px 15% 25px;
+    text-indent: -25px;
 
 }
 .footer {
